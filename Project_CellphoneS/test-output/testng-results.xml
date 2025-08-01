@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-31T22:07:40 ICT" name="Default suite" finished-at="2025-03-31T22:08:58 ICT" duration-ms="77978">
+    <groups>
+    </groups>
+    <test started-at="2025-03-31T22:07:40 ICT" name="Default test" finished-at="2025-03-31T22:08:58 ICT" duration-ms="77978">
+      <class name="Tests.BuyAndGetShipTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.BuyAndGetShipTest@41e36e46]" started-at="2025-03-31T22:07:40 ICT" name="setUp" finished-at="2025-03-31T22:08:04 ICT" duration-ms="23900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:1, instance:Tests.BuyAndGetShipTest@41e36e46]" started-at="2025-03-31T22:08:04 ICT" name="testLogin" finished-at="2025-03-31T22:08:11 ICT" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testBuyAndGetShip()[pri:2, instance:Tests.BuyAndGetShipTest@41e36e46]" started-at="2025-03-31T22:08:11 ICT" name="testBuyAndGetShip" finished-at="2025-03-31T22:08:20 ICT" depends-on-methods="Tests.BuyAndGetShipTest.testLogin" duration-ms="9458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuyAndGetShip -->
+        <test-method signature="testBuyWitoutDistrict()[pri:3, instance:Tests.BuyAndGetShipTest@41e36e46]" started-at="2025-03-31T22:08:20 ICT" name="testBuyWitoutDistrict" finished-at="2025-03-31T22:08:29 ICT" duration-ms="8564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuyWitoutDistrict -->
+        <test-method signature="testWithoutWard()[pri:4, instance:Tests.BuyAndGetShipTest@41e36e46]" started-at="2025-03-31T22:08:29 ICT" name="testWithoutWard" finished-at="2025-03-31T22:08:48 ICT" duration-ms="19495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutWard -->
+        <test-method signature="testWithoutAddress()[pri:5, instance:Tests.BuyAndGetShipTest@41e36e46]" started-at="2025-03-31T22:08:49 ICT" name="testWithoutAddress" finished-at="2025-03-31T22:08:58 ICT" duration-ms="9102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BuyAndGetShipTest@41e36e46]" started-at="2025-03-31T22:08:58 ICT" name="tearDown" finished-at="2025-03-31T22:08:58 ICT" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.BuyAndGetShipTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
